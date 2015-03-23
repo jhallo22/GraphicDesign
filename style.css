@@ -4,11 +4,11 @@ CSS selector {
 
 body.bootstrap-grid-example {
 	min-height: 9691px;
-	background-color: black;
+	background-color: white;
 }
 
 nav.navbar.navbar-default.topbar {
-	background-color: black;
+	background-color: white;
 	border: none;
 }
 
@@ -18,7 +18,7 @@ nav.navbar.navbar-default.topbar {
 }
 
 div.container.all {
-	background-color: black;
+	background-color: white;
 }
 
 span.glyphicon.glyphicon-record.dots a:hover {
@@ -29,10 +29,15 @@ hr {
 	width: 1em;
 	float: left;
 	margin-top: 0px;
+    border-top: 1px solid #818B92;
+}
+
+hr.myline {
+	float: right;
 }
 
 hr.worldline {
-	float: right;
+    width: 365px;
 }
 
 div.cd-timeline-block {
@@ -49,17 +54,25 @@ div.cd-timeline-content.worldtext {
 	padding-right: 35px;
 }
 
-h2 {
-	font-size: 24px;
-	color: #ff2f56;
-	font-family: 'Julius Sans One', sans-serif;
+h1 {
+    font-size: 24px;
+    line-height: 24px;
+    color: #ff2f56;
+    font-family: 'Unica One', cursive;}
 
+h1.space {
+    margin-top: 54px;
 }
 
+h2 {
+	font-size: 13px;
+	color: #818B92;
+    font-family: 'Open Sans Condensed', sans-serif;}
+
 p {
-	font-size: 14px;
-	color: white;
-	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	color: #818B92;
+    font-family: 'Open Sans Condensed', sans-serif;
 	line-height: 19px;
 }
 
@@ -78,7 +91,7 @@ p {
   left: 0px;
   height: 9491px;
   width: 1px;
-  background: #d7e4ed;
+  background: #818B92;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -100,16 +113,24 @@ div.cd-timeline-block.date0690 {
 }
 
 div.cd-timeline-block.date031690 {
-	padding-top: 365px;
+	padding-top: 335px;
 }
 
 div.cd-timeline-block.worlddate031690 {
-	padding-top: 109px;
+	padding-top: 117px;
 }
 
 
 div.cd-timeline-block.worlddate060489 {
-	padding-top: 58px;
+	padding-top: 39px;
+}
+
+div.cd-timeline-block.date0691 {
+    padding-top: 500px;
+}
+
+div.cd-timeline-block.worlddate0691 {
+    padding-top: 176px;
 }
 
 
@@ -136,7 +157,7 @@ div.cd-timeline-block.worlddate060489 {
     height: 100%;
     margin-left: -100px;
     overflow-y: auto;
-    background: #000;
+    background: #fff;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -171,6 +192,7 @@ li.sidedots {
     margin: 0;
     padding: 0;
     list-style: none;
+    background-color: white;
 }
 
 .sidebar-nav li {
@@ -186,7 +208,7 @@ li.sidedots {
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #ff2f56;
 /*    background: rgba(255,255,255,0.2);*/
 }
 
@@ -206,7 +228,7 @@ li.sidedots {
 }*/
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: white;
     background: none;
 }
 
